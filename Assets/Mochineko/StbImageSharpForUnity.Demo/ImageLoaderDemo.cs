@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System.IO;
+using System.Net.Http;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -56,7 +57,7 @@ namespace Mochineko.StbImageSharpForUnity.Demo
         {
             await UniTask.SwitchToThreadPool();
 
-            var data = await httpClient.GetByteArrayAsync(url);
+            var data = File.ReadAllBytes(url);
 
             var texture = await LoadImageAsync(data);
 
