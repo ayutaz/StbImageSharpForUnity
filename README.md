@@ -12,7 +12,7 @@ Add
 ```
 dependencies: {
     "com.stbsharp.stbimagesharp": "https://github.com/ayutaz/StbImageSharpForUnity.git?path=/Assets/StbImageSharp",
-    "com.mochineko.stbimagesharp-for-unity": "https://github.com/ayutaz/StbImageSharpForUnity.git?path=/Assets/Mochineko/StbImageSharpForUnity",
+    "com.ayutaz.stbimagesharp-for-unity": "https://github.com/ayutaz/StbImageSharpForUnity.git?path=/Assets/Mochineko/StbImageSharpForUnity",
 }
 ```
 
@@ -21,7 +21,7 @@ to `/Packages/manifest.json` on your Unity project and add its reference to your
 Also you can add a demo codes by adding
 
 ```
-"com.mochineko.stbimagesharp-for-unity.demo": "https://github.com/ayutaz/StbImageSharpForUnity.git?path=/Assets/Mochineko/StbImageSharpForUnity.Demo",
+"com.ayutaz.stbimagesharp-for-unity.demo": "https://github.com/ayutaz/StbImageSharpForUnity.git?path=/Assets/Mochineko/StbImageSharpForUnity.Demo",
 ```
 
 to your dependencies.
