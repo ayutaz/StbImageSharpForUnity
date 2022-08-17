@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace StbImageSharp
+namespace StbImageSharpInternal
 {
 	internal static unsafe class CRuntime
 	{

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using StbImageSharp;
 using UnityEngine;
 
 namespace Mochineko.StbImageSharpForUnity.Demo
